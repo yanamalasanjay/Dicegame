@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Dicee</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="start">
+        <p style="font-size:100px;">Welcome to dice game</p>
+        <p style="font-size:50px;">Player 1 name:</p>
+        <input type="text" id="player1"><br>
+        <p style="font-size:50px;">Player 2 name:</p>
+        <input type="text" id="player2"><br>
+
+        <button type="button" class="btn btn-outline-primary" id="Ready" onclick="myFunction()">Ready</button>
+    </div>
+    <div id="container">
+        <h1 id="result">Roll The Die</h1>
+
+        <div class="dice">
+            <p id="p1" style="font-size:50px;">Player 1</p>
+            <img id="img1" src="dice6.jpg">
+        </div>
+
+        <div class="dice">
+            <p id="p2" style="font-size:50px;">Player 2</p>
+            <img id="img2" src="dice6.jpg">
+        </div>
+        <br>
+        <button type="button" class="btn btn-outline-primary" id="Ready" onclick="myFunction2()">Roll</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+
+</html>
